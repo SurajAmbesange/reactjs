@@ -40,6 +40,7 @@ const Navbar = () => {
           <a href="#" className="block text-gray-700">About</a>
           <a href="#" className="block text-gray-700">Services</a>
           <a href="#" className="block text-gray-700">Contact</a>
+          <a href="#" className="block text-gray-700">Company</a>
         </div>
       )}
     </nav>
