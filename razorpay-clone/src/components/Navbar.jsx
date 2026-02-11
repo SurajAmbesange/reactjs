@@ -19,6 +19,7 @@ const Navbar = () => {
             <a href="#" className="text-gray-700 hover:text-blue-600">About</a>
             <a href="#" className="text-gray-700 hover:text-blue-600">Services</a>
             <a href="#" className="text-gray-700 hover:text-blue-600">Contact</a>
+            <a href="#" className="text-gray-700 hover:text-blue-600">Get a qoute</a>
           </div>
 
           {/* Mobile Menu Button */}
