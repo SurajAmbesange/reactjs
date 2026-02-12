@@ -4,47 +4,70 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          
-          {/* Logo */}
-          <div className="text-2xl font-bold text-blue-600">
-            MyLogo
-          </div>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
-            <a href="#" className="text-gray-700 hover:text-blue-600">Home</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600">About</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600">Services</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600">Contact</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600">Get a qoute</a>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 focus:outline-none"
-            >
-              ☰
-            </button>
+    <div class="bg-gray-900 py-24 sm:py-32">
+  <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
+    <div class="max-w-xl">
+      <h2 class="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">Meet our leadership</h2>
+      <p class="mt-6 text-lg/8 text-gray-400">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
+    </div>
+    <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+          <div>
+            <h3 class="text-base/7 font-semibold tracking-tight text-white">Leslie Alexander</h3>
+            <p class="text-sm/6 font-semibold text-indigo-400">Co-Founder / CEO</p>
           </div>
         </div>
-      </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-white px-4 pb-4 space-y-2">
-          <a href="#" className="block text-gray-700">Home</a>
-          <a href="#" className="block text-gray-700">About</a>
-          <a href="#" className="block text-gray-700">Services</a>
-          <a href="#" className="block text-gray-700">Contact</a>
-          <a href="#" className="block text-gray-700">Company</a>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+          <div>
+            <h3 class="text-base/7 font-semibold tracking-tight text-white">Michael Foster</h3>
+            <p class="text-sm/6 font-semibold text-indigo-400">Co-Founder / CTO</p>
+          </div>
         </div>
-      )}
-    </nav>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+          <div>
+            <h3 class="text-base/7 font-semibold tracking-tight text-white">Dries Vincent</h3>
+            <p class="text-sm/6 font-semibold text-indigo-400">Business Relations</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+          <div>
+            <h3 class="text-base/7 font-semibold tracking-tight text-white">Lindsay Walton</h3>
+            <p class="text-sm/6 font-semibold text-indigo-400">Front-end Developer</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+          <div>
+            <h3 class="text-base/7 font-semibold tracking-tight text-white">Courtney Henry</h3>
+            <p class="text-sm/6 font-semibold text-indigo-400">Designer</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+          <div>
+            <h3 class="text-base/7 font-semibold tracking-tight text-white">Tom Cook</h3>
+            <p class="text-sm/6 font-semibold text-indigo-400">Director of Product</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
   );
 };
 
