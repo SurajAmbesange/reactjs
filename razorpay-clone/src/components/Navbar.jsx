@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="#">
             <img src={India} alt="" srcset="" />
             <button className="bg-transparent hover:bg-gray-100  font-bold text-blue-700 font-bold border border-blue-800 px-2 py-1 rounded">Login</button>
-            <button className="bg-blue-600 mx-4 hover:bg-blue-800 font-bold text-white font-bold border border-blue-800 px-2 py-1 rounded">Sign Up</button>
+            <button className="bg-blue-600 mx-4 lg:mx-6 hover:bg-blue-800 font-bold text-white font-bold border border-blue-800 px-2 py-1 rounded">Sign Up</button>
           </a>
           </div>
       </div>  
