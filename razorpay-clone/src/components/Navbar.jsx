@@ -17,7 +17,7 @@ const Navbar = () => {
               <li className="relative text-gray-700 font-poppins font-bold hover:text-blue-500 cursor-pointer transition-all duration-200"><a href="#">Resources</a></li>
               <li className="relative text-gray-700 font-poppins font-bold hover:text-blue-500 cursor-pointer transition-all duration-200"><a href="#">Pricing</a></li>
           </ul>
-          <div className="flex flex-col justify-center items-start">
+          <div className="flex flex-col justify-center items-start px-4">
           <a href="#">
             <img src={India} alt="" srcset="" />
             <button className="bg-transparent hover:bg-gray-100  font-bold text-blue-700 font-bold border border-blue-800 px-2 py-1 rounded">Login</button>
