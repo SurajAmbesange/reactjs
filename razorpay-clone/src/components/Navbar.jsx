@@ -18,7 +18,7 @@ const Navbar = () => {
               <li className="relative text-white font-poppins font-bold hover:text-blue-500 cursor-pointer transition-all duration-200"><a href="#">Pricing</a></li>
           </ul>
           <div className="flex space-x-6 items-center">
-              <img src={India} alt="" srcset="" width="48px" height="20px" />
+              <img src={India} alt="" srcset="" width="48px" height="20px" className="rounded"/>
             <button className="px-5 py-2 bg-white hover:bg-gray-100 font-bold text-blue-600 text-sm border border-blue-900 rounded">Login</button>
             <button className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold text-sm text-white border border-blue-800 rounded">Sign Up</button>
           </div> 
