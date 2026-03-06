@@ -27,11 +27,15 @@ const Herosection = () => {
           </div>
           <div className="bg-blue-200 opacity-70 px-4 py-1 rounded-lg">
             <img src="" alt="" srcset=""/>
-            <p className="text-blue-600">Get CRedit</p>
+            <p className="text-blue-600">Get Credit</p>
           </div>
           <div className="bg-blue-200 opacity-70 px-4 py-1 rounded-lg">
             <img src="" alt="" srcset=""/>
             <p className="text-blue-600">Accept Payments</p>
+          </div>
+          <div className="bg-blue-200 opacity-70 px-4 py-1 rounded-lg"> 
+            <img src="" alt="" srcset=""/>
+            <p className="text-blue-600">Create Payment links</p>
           </div>
           <div className="bg-blue-200 opacity-70 px-4 py-1 rounded-lg">
             <img src="" alt="" srcset="" />
